@@ -113,4 +113,4 @@ ggplot(DfSummaryLong, aes(x = Cond, y = Count, fill = Nucleotide)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 #write results in excel file
-writexl::write_xlsx(DfSummaryLong, "d:/MtMet26Feb/MitoMutationCounts.xlsx")
+writexl::write_xlsx(DfSummaryLong, "path/to/save/result.xlsx")
